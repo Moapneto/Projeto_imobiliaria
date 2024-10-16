@@ -1,0 +1,68 @@
+body {
+    font-family: "Exo 2", sans-serif;
+}
+
+.navbar {
+    background-color: #FFF;
+    border-bottom: 1px solid #CCC;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #CCC;
+    color: black
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-cardapio .nav-link.active:hover {
+    color: black;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #CCC;
+    color: black;
+}
+
+#sobre-a-imobiliaria,
+#catalago {
+    background-color:#cccccc63;
+}
+
+.text-colored {
+    color: black;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.error {
+    display: block;
+    color: red;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+
+.linha {
+    border-bottom: 1px solid #CCC;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 150px;
+    }
+
+    #catalago .btn {
+        margin-left: 8px;
+    }
+
+}
